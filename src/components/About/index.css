@@ -1,0 +1,44 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.about-bg-dark {
+  background-color: #000000;
+}
+.about-bg-light {
+  background-color: #ffffff;
+}
+.about-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.about-img-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.about-img {
+  height: 100px;
+}
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .about-heading {
+    font-size: 40px;
+  }
+}
+.about-light-text {
+  color: #ffffff;
+}
+.about-dark-text {
+  color: #1e293b;
+}

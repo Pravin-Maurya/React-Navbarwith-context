@@ -1,0 +1,44 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.home-bg-dark {
+  background-color: #000000;
+}
+.home-bg-light {
+  background-color: #ffffff;
+}
+.home-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.home-img-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.home-img {
+  height: 100px;
+}
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 40px;
+  }
+}
+.home-light-text {
+  color: #ffffff;
+}
+.home-dark-text {
+  color: #1e293b;
+}
